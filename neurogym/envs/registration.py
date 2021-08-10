@@ -64,6 +64,7 @@ NATIVE_ALLOW_LIST = [
     'DelayComparison',
     'DelayMatchCategory',
     'DelayMatchSample',
+    'DelayMatchCategoryMod',
     'DelayMatchSampleDistractor1D',
     'DelayPairedAssociation',
     # 'Detection',  # TODO: Temporary removing until bug fixed
