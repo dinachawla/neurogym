@@ -76,8 +76,8 @@ class DelayMatchCategoryMod(ngym.TrialEnv):
 
         #sample_theta = (sample_category + self.rng.rand()) * np.pi
         #test_theta = (test_category + self.rng.rand()) * np.pi
-        sample_theta = (sample_category + self.rng.rand()*self.stim_range - 0.5) * np.pi
-        test_theta = (test_category + self.rng.rand()*self.stim_range - 0.5) * np.pi
+        sample_theta = (sample_category + self.rng.rand()*self.stim_range - 0) * np.pi
+        test_theta = (test_category + self.rng.rand()*self.stim_range - 0) * np.pi
         
 
         #stim_sample = np.cos(self.theta - sample_theta) * 0.5 + 0.5
